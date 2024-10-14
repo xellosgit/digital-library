@@ -1,0 +1,202 @@
+    html, body
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    body
+    {
+        background: rgb(250, 250, 250);;
+    }
+
+    body
+    {
+        font: 91% calibry, sans-serif;
+        text-align: center;
+    }   
+
+    div#header
+    {
+        background-color: rgb(240, 240, 240);
+    }
+
+    div#header h1
+    {
+        height: 93px;
+        line-height: 93px;
+        margin: 0;
+        text-align: center;
+    }
+
+    div#header img
+    {
+        float: left;
+        width: 199px;
+        height: 93px;
+    }
+
+    div#side a:hover 
+    {
+        color: black;
+        font-weight: 600;
+    }
+
+    div#container
+    {
+        height: auto;
+        width: 750px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    div#wrapper
+    {
+        float: right;
+        width: 550px;
+    }
+
+    div#wrapper p
+    {
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    div#inbar
+    {
+        float: left;
+        height: 500px;
+        width: 199px;
+        background: rgb(220, 220, 220);
+    }
+
+    div#inbar ul
+    {
+       
+        list-style-type: none;
+    }
+
+    div#inbar li
+    {
+        margin-bottom: 5px;
+    }
+
+    div#footer
+    {
+        text-align: center;
+        clear: both;
+        width: 100%;
+        background: rgb(200, 200, 200);
+    }
+
+    div#footer p
+    {
+        margin: 0;
+        padding: 5px 10px;
+    }
+
+    a
+    {
+        padding: 5px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+
+    div#main a
+    {
+        padding: 0px;
+    }
+
+    a:hover
+    {
+        color: rgb(0, 128, 0);
+    }
+
+    p
+    {
+        margin: 0 10px 10px;
+    }
+
+    #heading
+    {
+        text-align: center;
+    }
+
+    #center
+    {
+        height: auto;
+        width: 300px;
+        margin-left: 125px;
+    }
+
+    label, input, button, select, textarea
+    {
+        display: block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    input, select, textarea
+    {
+        width: 100%;
+    }
+
+    .error
+    {
+        color: rgb(255, 0, 0);
+        text-align: center;
+    }
+
+    .success
+    {
+        color: rgb(0, 128, 0);
+        text-align: center;
+    }
+
+    .amount
+    {
+        list-style-type:none;
+    }
+
+    .amount li
+    {
+        margin-top: 15px;
+    }
+
+    table
+    {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table td, table th
+    {
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+
+    th
+    {
+        text-align: center;
+    }
+
+    strong
+    {
+        color: orange;
+        padding: 5px;
+    }
+
+    i
+    {
+        color: blue;
+        padding: 5px;
+    }
+
+    div#side ul
+    {
+        list-style-image: url("/upload/arrow2.png");
+    }
+
+    div#contacts a:hover
+    {
+        color: #007cff;
+    }
